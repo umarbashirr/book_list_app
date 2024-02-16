@@ -1,28 +1,36 @@
-# Book List APP
+# Project Title
 
-## Description
-
-This project is very basic aimed at managing a list of books.
+A simple basic app for managing a list of books.
 
 ## Installation
 
 To install the project, follow these steps:
 
-1. Clone the repository.
-2. Run `npm install` to install the dependencies.
+```bash
+  git clone https://github.com/umarbashirr/book_list_app.git
+  cd book_list_app
+  npm install
+  npm run dev
+```
 
-## Usage
+## Environment Variables
 
-To use the project, follow these steps:
+To run this project, you will need to add the following environment variables to your .env file
 
-1. Step 1.
-2. Step 2.
-3. Step 3.
+`PORT`
 
-## Contributing
+`NODE_ENV`
 
-If you would like to contribute to the project, ...
+`MONGO_URI`
 
-## License
+## Tech Stack
 
-This project is licensed under the [MIT License](LICENSE).
+**Server:** Node, Express, MongoDB, Mongoose
+
+## Authors
+
+- [@umarbashirr](https://www.github.com/umarbashirr)
+
+## Feedback
+
+If you have any feedback, please reach out to us at umarbashir601@gmail.com
